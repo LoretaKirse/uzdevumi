@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: #ffffff;
+  color: #000;
 }
 
 .container {
@@ -54,7 +56,7 @@ footer p {
 
 .content iframe {
   width: 100%;
-  height: 400px;
+  height: 450px;
   border: 1px solid #ccc;
 }
 
@@ -63,6 +65,49 @@ footer p {
   flex: 1 1 200px;
   background: #e6f3f7;
   padding: 10px;
+}
+
+/* ===== Uzdevuma 1 stils ===== */
+h2 {
+  text-align: center;
+  color: #4b67a1;
+}
+
+.text-blue {
+  color: #4b67a1;
+}
+
+.text-purple {
+  color: #6b4ba1;
+}
+
+p {
+  text-align: justify;
+}
+
+/* ===== Uzdevuma 2 (tabulas) stils ===== */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 6px 12px;
+}
+
+th {
+  background-color: #d9d9d9;
+}
+
+td:nth-child(1) {
+  background-color: #f2f2f2;
+}
+
+td:nth-child(2) {
+  background-color: #eaf1fb;
 }
 
 /* ===== Responsīvais dizains ===== */
